@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.31f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/Репозитории/Test1
+D:/Репозитории/Test1Git/Test1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63657
-Successfully changed project path to: D:/Репозитории/Test1
-D:/Репозитории/Test1
+62303
+Successfully changed project path to: D:/Репозитории/Test1Git/Test1
+D:/Репозитории/Test1Git/Test1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.31f1 (6b54b7616050)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Репозитории/Test1/Assets
+[Subsystems] Discovering subsystems at path D:/Репозитории/Test1Git/Test1/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001510 seconds.
+Registered in 0.001529 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 35.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.719 seconds
+- Completed reload, in  0.699 seconds
 Domain Reload Profiling:
-	ReloadAssembly (719ms)
-		BeginReloadAssembly (81ms)
+	ReloadAssembly (699ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (548ms)
-			LoadAssemblies (79ms)
+		EndReloadAssembly (535ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (170ms)
+			SetupTypeCache (176ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (210ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (196ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (35ms)
-				BeforeProcessingInitializeOnLoad (17ms)
-				ProcessInitializeOnLoadAttributes (106ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002172 seconds.
+Registered in 0.002141 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.112 seconds
+- Completed reload, in  1.124 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1113ms)
-		BeginReloadAssembly (172ms)
+	ReloadAssembly (1125ms)
+		BeginReloadAssembly (179ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (875ms)
-			LoadAssemblies (103ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (880ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (310ms)
+			SetupTypeCache (293ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (323ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (349ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (220ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.5 MB.
-System memory in use after: 70.6 MB.
+Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.4 MB.
+System memory in use after: 70.4 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1944.
-Total: 3.042500 ms (FindLiveObjects: 0.182700 ms CreateObjectMapping: 0.076300 ms MarkObjects: 2.704200 ms  DeleteObjects: 0.078300 ms)
+Total: 3.373200 ms (FindLiveObjects: 0.127500 ms CreateObjectMapping: 0.046200 ms MarkObjects: 3.089200 ms  DeleteObjects: 0.109200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,371 +133,533 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Royal Punch Assets/Sprites/SmokePuff02ParticleSheet 1.tif
   artifactKey: Guid(a4557099401504a43b9ac609e8e74459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/SmokePuff02ParticleSheet 1.tif using Guid(a4557099401504a43b9ac609e8e74459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400ae6d43191e9a87cf3664ebd6749c0') in 0.095349 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Royal Punch Assets
-  artifactKey: Guid(471f52daf888d984aa515f2e8461f60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets using Guid(471f52daf888d984aa515f2e8461f60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732ab1a454f0dcfb12d8655569133aba') in 0.009840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001274 seconds.
-  path: Assets/Royal Punch Assets/Sprites/Arrow.png
-  artifactKey: Guid(ca0a3a6126a64934cbfb2af3d54ab187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/Arrow.png using Guid(ca0a3a6126a64934cbfb2af3d54ab187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6435008873a5b83f883d9b798e9a5e') in 0.056154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Royal Punch Assets/Sprites/TexFloor2.png
-  artifactKey: Guid(c8158a87ac1016841bced83faa4eb275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/TexFloor2.png using Guid(c8158a87ac1016841bced83faa4eb275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835793351766a7a92fdbfff0a534ca50') in 0.017209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Royal Punch Assets/Sprites
-  artifactKey: Guid(486a4187e36bad2439e771aec2a63bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites using Guid(486a4187e36bad2439e771aec2a63bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f4d68072e19a8de9e41e9691a0d912') in 0.007012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.544095 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI
-  artifactKey: Guid(a3356b39bbb2997448eae7ccff5ee776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI using Guid(a3356b39bbb2997448eae7ccff5ee776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6a23d12a3f8ce74889e9e80c44ce49') in 0.006809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.063885 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Circle.png
-  artifactKey: Guid(b6de2bbd544db4ccda3a5ca7411ade6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Circle.png using Guid(b6de2bbd544db4ccda3a5ca7411ade6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ae8e122fd784176f1ff8d118380840') in 0.015063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Rectangle_green_outline_shadow.png
-  artifactKey: Guid(0885f668c2f6a4496882a0c9eadedf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Rectangle_green_outline_shadow.png using Guid(0885f668c2f6a4496882a0c9eadedf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388bc5c66535b4f32144276b54537233') in 0.027780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Square_green.png
-  artifactKey: Guid(a0b1eb117f8ed4cf383501f24ccdb08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Square_green.png using Guid(a0b1eb117f8ed4cf383501f24ccdb08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a66c2f3b16b538dd6f9eebdbf2474b1') in 0.022782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Panel.png
-  artifactKey: Guid(24b03a20af0ab41448a1cebeb9473e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Panel.png using Guid(24b03a20af0ab41448a1cebeb9473e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11386f78fda3fa0e07ff87d1d97139b') in 0.039428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Square_purple.png
-  artifactKey: Guid(7666ff0850c104a6897f0c8daf7d2c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Square_purple.png using Guid(7666ff0850c104a6897f0c8daf7d2c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd884a5afadd38afc5677a275f9c620') in 0.024710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Square.png
-  artifactKey: Guid(4aa61c626c9264d1e9e5ed5e70c63e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Square.png using Guid(4aa61c626c9264d1e9e5ed5e70c63e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17a41ad0b0234ab592424fc39578663') in 0.015677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Square_yellow_shadow.png
-  artifactKey: Guid(aaa0e770109f0457eb05fc76c1c73499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Square_yellow_shadow.png using Guid(aaa0e770109f0457eb05fc76c1c73499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a73ff6d3ffde70be73f4f57f4b404b2') in 0.019401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Joystick_outter.png
-  artifactKey: Guid(4f442a8e267333c4ba875843818bdea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Joystick_outter.png using Guid(4f442a8e267333c4ba875843818bdea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac85652dc719e60f6b3a0fe052fccf1c') in 0.017536 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Square_purple_outline_shadow.png
-  artifactKey: Guid(75679f145eaf1490a8b534bd8a8ba421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Square_purple_outline_shadow.png using Guid(75679f145eaf1490a8b534bd8a8ba421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6578b700bdbf2968d5139d0c5fb59b0e') in 0.020798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Title_yellow.png
-  artifactKey: Guid(e1b26ccdde6a54b4dbb2b1d4ddc363c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Title_yellow.png using Guid(e1b26ccdde6a54b4dbb2b1d4ddc363c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795d9d898af586559a69ff4b0ab4165a') in 0.017146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Title_purple.png
-  artifactKey: Guid(fa1f08b293ae5f64ca76a245970aa2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Title_purple.png using Guid(fa1f08b293ae5f64ca76a245970aa2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3e3d9065bd83e1461183874b331ec8') in 0.016675 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Rectangle.png
-  artifactKey: Guid(99014c6a5b8fb4309b3f0cecc279e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Rectangle.png using Guid(99014c6a5b8fb4309b3f0cecc279e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688bf069e80cb042777b950228ecf961') in 0.019674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Title_green.png
-  artifactKey: Guid(be06ef06b7a58c4429cfe3fdce916160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Title_green.png using Guid(be06ef06b7a58c4429cfe3fdce916160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb96b1050229269de4ad4d52e38484f9') in 0.016607 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Coins_BG.png
-  artifactKey: Guid(32b49800c2aa2084f83b903d78377933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Coins_BG.png using Guid(32b49800c2aa2084f83b903d78377933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfad0bddf596419f3422ace26ba66e24') in 0.020261 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Square_yellow_outline.png
-  artifactKey: Guid(db1f08bb09e57431294e1692e7ce2ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Square_yellow_outline.png using Guid(db1f08bb09e57431294e1692e7ce2ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b335e54b85a4d351308f251865c8d9d') in 0.020189 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Resume.png
-  artifactKey: Guid(48acdbd0fd34341628d32df0e2079cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Resume.png using Guid(48acdbd0fd34341628d32df0e2079cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f81304e9576c4f236d4f5ac20d3596a') in 0.020075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Rectangle_green_outline.png
-  artifactKey: Guid(e04d466c43bd8459e806ae442148d76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Rectangle_green_outline.png using Guid(e04d466c43bd8459e806ae442148d76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b248fe434f2d1d7275e28878d2b9d3') in 0.021418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Square_yellow_outline_shadow.png
-  artifactKey: Guid(f4bc936a06a8b4c7d8562284bb127a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Square_yellow_outline_shadow.png using Guid(f4bc936a06a8b4c7d8562284bb127a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a807221fb54aeac962ae4b5aa8ee5dd') in 0.018536 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Square_blue_outline_shadow.png
-  artifactKey: Guid(ac51fa532ec8f4b04a0f247770649636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Square_blue_outline_shadow.png using Guid(ac51fa532ec8f4b04a0f247770649636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2fe9565cf83fe9735fa6f99a691bbc') in 0.020632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Square_purple_shadow.png
-  artifactKey: Guid(5367c8d92b9fc4554a9773b0b6faa178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Square_purple_shadow.png using Guid(5367c8d92b9fc4554a9773b0b6faa178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30c6f3665cc1f7cdb27b3916eb97db0') in 0.019258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Square_purple_outline.png
-  artifactKey: Guid(5008de41350c046a9837d53f9221e211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Square_purple_outline.png using Guid(5008de41350c046a9837d53f9221e211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cff340b748a64b944e6b11c27f389df') in 0.020349 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Restart.png
-  artifactKey: Guid(bf2174590125f4401b3fe9bd9b1a3125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Restart.png using Guid(bf2174590125f4401b3fe9bd9b1a3125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fece773823a81564b730db68f7989b5d') in 0.035156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Rounded_square.png
-  artifactKey: Guid(27fd8c4163504441fa47eb5ed4ae9d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Rounded_square.png using Guid(27fd8c4163504441fa47eb5ed4ae9d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803a80b3bae336bb990f4c0ef1d9f8cd') in 0.016512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Round_green.png
-  artifactKey: Guid(76fe93c1a0ce048bf862cdb5b59a4f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Round_green.png using Guid(76fe93c1a0ce048bf862cdb5b59a4f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea79a277c697899221dc2c8afd2955e') in 0.017435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Joystick_inner.png
-  artifactKey: Guid(eb3831b3b436eff48bd8a0c6ccc56d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Joystick_inner.png using Guid(eb3831b3b436eff48bd8a0c6ccc56d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f505fc1b7396c6114b6589378b138c8') in 0.016982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Square_yellow.png
-  artifactKey: Guid(8c61faa4cd1fa4e12ba287a592098435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Square_yellow.png using Guid(8c61faa4cd1fa4e12ba287a592098435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec653fa96678d9c7ad446de2ec0f88e5') in 0.018423 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Rectangle_green_shadow.png
-  artifactKey: Guid(58390e8eac2e24f7ea58f283d36a2961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Rectangle_green_shadow.png using Guid(58390e8eac2e24f7ea58f283d36a2961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3049b4604e4ccaab6b28d1fa3a9747de') in 0.020701 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Rectangle_green.png
-  artifactKey: Guid(4c196ed03b10a489d8ba1d6af05d32ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Rectangle_green.png using Guid(4c196ed03b10a489d8ba1d6af05d32ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674360fd7bff21812b1db211a740bdf7') in 0.020449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Title_blue.png
-  artifactKey: Guid(7128835277f78c74aaf23802c9b8739d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Title_blue.png using Guid(7128835277f78c74aaf23802c9b8739d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4300dac779be632392d4908214eb1836') in 0.014922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Round_green_2.png
-  artifactKey: Guid(3fd9b70dc8739450badbf671a508e75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Round_green_2.png using Guid(3fd9b70dc8739450badbf671a508e75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3def5ea5629181c209f00cdfac50f507') in 0.026273 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Pointer.png
-  artifactKey: Guid(36780a1d704674a3dbad1306efb5db35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Pointer.png using Guid(36780a1d704674a3dbad1306efb5db35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906385d14351cb71f04fca267fb73cc9') in 0.017601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Square_green_outline.png
-  artifactKey: Guid(b2eef44bef39646b8ba932b0bcd89dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Square_green_outline.png using Guid(b2eef44bef39646b8ba932b0bcd89dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb14492b0e1dae817b6712e0bbe41cd') in 0.017992 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Square_blue_shadow.png
-  artifactKey: Guid(53579b999d0e044c382334a193e3babd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Square_blue_shadow.png using Guid(53579b999d0e044c382334a193e3babd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8e20ac69f54292099df73eb3ebb6e5') in 0.018530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Pause.png
-  artifactKey: Guid(f1ced9228313a49488ae03ebe2d34256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Pause.png using Guid(f1ced9228313a49488ae03ebe2d34256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c9c6da86dd8829095e73c1c6985f50') in 0.037423 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Coin.png
-  artifactKey: Guid(bffba9bbf7345824793d8fbffade40dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Coin.png using Guid(bffba9bbf7345824793d8fbffade40dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29261156960a1b85232d95bfa71dbf2c') in 0.028967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Infinity.png
-  artifactKey: Guid(45aa69a0c18b647eb8a44bdc679d2e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Infinity.png using Guid(45aa69a0c18b647eb8a44bdc679d2e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd601e72887a24cc395e8a0ecfda0ba08') in 0.019932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Health Bar.png
-  artifactKey: Guid(11267bb58b1514908a4b7e88782ebc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Health Bar.png using Guid(11267bb58b1514908a4b7e88782ebc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166fee5c94f4b2968a1dbf8bcb65d602') in 0.015331 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Reward_BG.png
-  artifactKey: Guid(92cb6160bc78e45fe9db1aa676232c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Reward_BG.png using Guid(92cb6160bc78e45fe9db1aa676232c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8227e4667506e76fe99f569213d2fe5c') in 0.017486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Square_green_outline_shadow.png
-  artifactKey: Guid(e2930c5fe28144b1882a0c0c13b98c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Square_green_outline_shadow.png using Guid(e2930c5fe28144b1882a0c0c13b98c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3852dd5ff3b1482497490646bbd4e0ef') in 0.020629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Home.png
-  artifactKey: Guid(94c66d52dd64140409b30fe9647fac86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Home.png using Guid(94c66d52dd64140409b30fe9647fac86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77250ef9e697ab031b5bdc3cc5409b67') in 0.026946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Square_blue_outline.png
-  artifactKey: Guid(89fa863757552404cb425a0325aba5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Square_blue_outline.png using Guid(89fa863757552404cb425a0325aba5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c34d5dad4c14ef93ad8e7582490c03') in 0.019259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Square_blue.png
-  artifactKey: Guid(60100aaec27cc4398b9e3d94a648d75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Square_blue.png using Guid(60100aaec27cc4398b9e3d94a648d75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8ce7a8ade9f2b0ee866875a5d86670') in 0.018815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Square_green_shadow.png
-  artifactKey: Guid(ddabf3db4d38642828d00eab413fb08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Square_green_shadow.png using Guid(ddabf3db4d38642828d00eab413fb08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adeb82da8e87555f71104c9d87a03344') in 0.017682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.356384 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Font
-  artifactKey: Guid(6e0a151fd3f3fac429ffa53292ad0fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Font using Guid(6e0a151fd3f3fac429ffa53292ad0fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1647abf3d6dc318306d6ebd704216c') in 0.006396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.027722 seconds.
-  path: Assets/Royal Punch Assets/Sprites/UI/Font/TitanOne-Regular.ttf
-  artifactKey: Guid(318a3ec1816d5d745b5b7982921ddcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/UI/Font/TitanOne-Regular.ttf using Guid(318a3ec1816d5d745b5b7982921ddcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d98fc410ba58378d083cb11ce0757ab') in 0.061094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.904649 seconds.
-  path: Assets/Royal Punch Assets/Sprites/Punch
-  artifactKey: Guid(1ff111145b2e7a0428014292bfe653f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/Punch using Guid(1ff111145b2e7a0428014292bfe653f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22161774d0708266a76e578e0a0d07aa') in 0.005635 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.033648 seconds.
-  path: Assets/Royal Punch Assets/Sprites/Punch/flash1.png
-  artifactKey: Guid(31e77bb925c7cd143bb9f1f99f1d85fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/Punch/flash1.png using Guid(31e77bb925c7cd143bb9f1f99f1d85fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f11c3b82f71e193c15c41a0e8fbca6c') in 0.011224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Royal Punch Assets/Sprites/Punch/FlashNew1.png
-  artifactKey: Guid(7fe010986a213884eac9e41bd8d900b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/Punch/FlashNew1.png using Guid(7fe010986a213884eac9e41bd8d900b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd029e4e5266b2a86dd954961b1ba3e6d') in 0.017771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Royal Punch Assets/Sprites/Punch/part1.png
-  artifactKey: Guid(b01df07a2be67e94bb4929b20c55e55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/Punch/part1.png using Guid(b01df07a2be67e94bb4929b20c55e55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a512553bca275b7e11fbc80067484a9') in 0.015218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Royal Punch Assets/Sprites/Punch/hitSmall.png
-  artifactKey: Guid(da4a8aebc59aea3429ef9be2957b9540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Sprites/Punch/hitSmall.png using Guid(da4a8aebc59aea3429ef9be2957b9540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2ee7716cdbec7d33056e50c58990ab') in 0.017243 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.155273 seconds.
-  path: Assets/Royal Punch Assets/Shaders
-  artifactKey: Guid(4b015d4d46c5b104796442f72707fd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Shaders using Guid(4b015d4d46c5b104796442f72707fd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec1d6da0136cfb8fea949ec8f029fd5') in 0.008828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.726145 seconds.
-  path: Assets/Royal Punch Assets/Shaders/NewToon.shader
-  artifactKey: Guid(6e909976ce8b04ef2b2789befbd1fd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Shaders/NewToon.shader using Guid(6e909976ce8b04ef2b2789befbd1fd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef0a89af47aaac6ca3191e26020de8f') in 0.008326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.619473 seconds.
-  path: Assets/Royal Punch Assets/Models & Animations
-  artifactKey: Guid(3262019b2e9b2bc4585e2e3a6c61785b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Models & Animations using Guid(3262019b2e9b2bc4585e2e3a6c61785b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64f3dc7dc1d236d55598241d91118e0') in 0.006688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.047969 seconds.
-  path: Assets/Royal Punch Assets/Models & Animations/AdditionalBoxer.fbx
-  artifactKey: Guid(05da530a745754c6f92938aa24d5d3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Models & Animations/AdditionalBoxer.fbx using Guid(05da530a745754c6f92938aa24d5d3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9071a1b35c144527257acc20d2e527c6') in 0.332119 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Royal Punch Assets/Models & Animations/Spectator.fbx
-  artifactKey: Guid(001de8bbfb396a14ca758c5fe183e8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Models & Animations/Spectator.fbx using Guid(001de8bbfb396a14ca758c5fe183e8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425b76485498b122f1ca907c1a5ed692') in 0.047028 seconds 
+Start importing Assets/Royal Punch Assets/Sprites/SmokePuff02ParticleSheet 1.tif using Guid(a4557099401504a43b9ac609e8e74459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2626fd598146bbf8cf297c4bafcca4a') in 0.157834 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000271 seconds.
-  path: Assets/Royal Punch Assets/Models & Animations/BoxerStickman.fbx
-  artifactKey: Guid(266b48edddf88844bb960cdb6da5dec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Royal Punch Assets/Models & Animations/BoxerStickman.fbx using Guid(266b48edddf88844bb960cdb6da5dec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bca036993d41cad91bfa03bc12d8ba') in 0.071678 seconds 
+  path: Assets/Royal Punch Assets/Sprites/Punch/hitSmall.png
+  artifactKey: Guid(da4a8aebc59aea3429ef9be2957b9540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/Punch/hitSmall.png using Guid(da4a8aebc59aea3429ef9be2957b9540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c748cfe109128b43d5f4f07272dea910') in 0.024642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Royal Punch Assets/Sprites/Punch/flash1.png
+  artifactKey: Guid(31e77bb925c7cd143bb9f1f99f1d85fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/Punch/flash1.png using Guid(31e77bb925c7cd143bb9f1f99f1d85fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfe8ed402e9be98a43a7e44276bf6d7') in 0.023291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Royal Punch Assets/Sprites/Arrow.png
+  artifactKey: Guid(ca0a3a6126a64934cbfb2af3d54ab187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/Arrow.png using Guid(ca0a3a6126a64934cbfb2af3d54ab187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b1eb4585ab52820d9d321795cee25f') in 0.053741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Royal Punch Assets/Sprites/Punch/FlashNew1.png
+  artifactKey: Guid(7fe010986a213884eac9e41bd8d900b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/Punch/FlashNew1.png using Guid(7fe010986a213884eac9e41bd8d900b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d9459fbf5f6043b7cfab17e18e0289') in 0.017175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Royal Punch Assets/Sprites/TexFloor2.png
+  artifactKey: Guid(c8158a87ac1016841bced83faa4eb275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/TexFloor2.png using Guid(c8158a87ac1016841bced83faa4eb275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a650a8750944483790c17b500d7e448a') in 0.031830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Royal Punch Assets/Sprites/Punch/part1.png
+  artifactKey: Guid(b01df07a2be67e94bb4929b20c55e55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/Punch/part1.png using Guid(b01df07a2be67e94bb4929b20c55e55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff4e44bcaeaf4be55783458a4d62c60') in 0.015381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.746604 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Circle.png
+  artifactKey: Guid(b6de2bbd544db4ccda3a5ca7411ade6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Circle.png using Guid(b6de2bbd544db4ccda3a5ca7411ade6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c52a5ee9cc0b44a7a4e54fd01e7dafb') in 0.026858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Rectangle_green_outline_shadow.png
+  artifactKey: Guid(0885f668c2f6a4496882a0c9eadedf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Rectangle_green_outline_shadow.png using Guid(0885f668c2f6a4496882a0c9eadedf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1992c5d3e1f49f46af8fece72b128ad5') in 0.028479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Square_green.png
+  artifactKey: Guid(a0b1eb117f8ed4cf383501f24ccdb08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Square_green.png using Guid(a0b1eb117f8ed4cf383501f24ccdb08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b5fd8b0a4ed1da66a1b807a1df0cbd') in 0.069312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Panel.png
+  artifactKey: Guid(24b03a20af0ab41448a1cebeb9473e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Panel.png using Guid(24b03a20af0ab41448a1cebeb9473e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4befca7a4ea237c0ac137c5ff3b9c80') in 0.030854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Square_purple.png
+  artifactKey: Guid(7666ff0850c104a6897f0c8daf7d2c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Square_purple.png using Guid(7666ff0850c104a6897f0c8daf7d2c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3423b92b54cae369d4afe52b58fc6663') in 0.060639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Square.png
+  artifactKey: Guid(4aa61c626c9264d1e9e5ed5e70c63e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Square.png using Guid(4aa61c626c9264d1e9e5ed5e70c63e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eac2caf8c13137b93cfa67abb7577ac') in 0.024225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Square_yellow_shadow.png
+  artifactKey: Guid(aaa0e770109f0457eb05fc76c1c73499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Square_yellow_shadow.png using Guid(aaa0e770109f0457eb05fc76c1c73499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08da88413aa0dd42a068c7d6edd7b06') in 0.058217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Joystick_outter.png
+  artifactKey: Guid(4f442a8e267333c4ba875843818bdea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Joystick_outter.png using Guid(4f442a8e267333c4ba875843818bdea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686d772432a6ba884cd64637b42abdcc') in 0.029778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Square_purple_outline_shadow.png
+  artifactKey: Guid(75679f145eaf1490a8b534bd8a8ba421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Square_purple_outline_shadow.png using Guid(75679f145eaf1490a8b534bd8a8ba421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf1023ba283d2e6065341f49135e70d') in 0.058585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Title_yellow.png
+  artifactKey: Guid(e1b26ccdde6a54b4dbb2b1d4ddc363c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Title_yellow.png using Guid(e1b26ccdde6a54b4dbb2b1d4ddc363c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deba4aee0a1079edfbc41268e8948b34') in 0.017478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Title_purple.png
+  artifactKey: Guid(fa1f08b293ae5f64ca76a245970aa2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Title_purple.png using Guid(fa1f08b293ae5f64ca76a245970aa2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4557abafe7c4b8982bbec6b6d65b50') in 0.016166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Rectangle.png
+  artifactKey: Guid(99014c6a5b8fb4309b3f0cecc279e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Rectangle.png using Guid(99014c6a5b8fb4309b3f0cecc279e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9b93f30609c171b9fd4285516650ff') in 0.018926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Title_green.png
+  artifactKey: Guid(be06ef06b7a58c4429cfe3fdce916160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Title_green.png using Guid(be06ef06b7a58c4429cfe3fdce916160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d052dd5ad1aa34e678b43aeae9e3442') in 0.016025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Coins_BG.png
+  artifactKey: Guid(32b49800c2aa2084f83b903d78377933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Coins_BG.png using Guid(32b49800c2aa2084f83b903d78377933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5a837b93da92307a6206a699a2e15a') in 0.016499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Square_yellow_outline.png
+  artifactKey: Guid(db1f08bb09e57431294e1692e7ce2ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Square_yellow_outline.png using Guid(db1f08bb09e57431294e1692e7ce2ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72a5845224d3db80817cb6e0c5026ac') in 0.058808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Resume.png
+  artifactKey: Guid(48acdbd0fd34341628d32df0e2079cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Resume.png using Guid(48acdbd0fd34341628d32df0e2079cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8b4b88754c1d52f8850196b22372ec') in 0.059781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Rectangle_green_outline.png
+  artifactKey: Guid(e04d466c43bd8459e806ae442148d76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Rectangle_green_outline.png using Guid(e04d466c43bd8459e806ae442148d76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953a124be91a8c1c27787666a20b91b9') in 0.020619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Square_yellow_outline_shadow.png
+  artifactKey: Guid(f4bc936a06a8b4c7d8562284bb127a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Square_yellow_outline_shadow.png using Guid(f4bc936a06a8b4c7d8562284bb127a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c514d5af197673ab1fc6c6956f01388') in 0.057641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Square_blue_outline_shadow.png
+  artifactKey: Guid(ac51fa532ec8f4b04a0f247770649636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Square_blue_outline_shadow.png using Guid(ac51fa532ec8f4b04a0f247770649636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e5e7a5b414b408b6f4d2b22460f7df') in 0.062762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Square_purple_shadow.png
+  artifactKey: Guid(5367c8d92b9fc4554a9773b0b6faa178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Square_purple_shadow.png using Guid(5367c8d92b9fc4554a9773b0b6faa178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfad7817f9d8a8376e8a6f0152d820b0') in 0.057647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Square_purple_outline.png
+  artifactKey: Guid(5008de41350c046a9837d53f9221e211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Square_purple_outline.png using Guid(5008de41350c046a9837d53f9221e211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4454b6ae6e20031b327dfc79ce085f66') in 0.062375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Restart.png
+  artifactKey: Guid(bf2174590125f4401b3fe9bd9b1a3125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Restart.png using Guid(bf2174590125f4401b3fe9bd9b1a3125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e64139fd089af603ab6803312457a40') in 0.033586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Rounded_square.png
+  artifactKey: Guid(27fd8c4163504441fa47eb5ed4ae9d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Rounded_square.png using Guid(27fd8c4163504441fa47eb5ed4ae9d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ed2d3af3a62bb49da751a9a834d0cf') in 0.022012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Round_green.png
+  artifactKey: Guid(76fe93c1a0ce048bf862cdb5b59a4f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Round_green.png using Guid(76fe93c1a0ce048bf862cdb5b59a4f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd257e515a6a5d0ef1c746398b0dad26f') in 0.061414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Joystick_inner.png
+  artifactKey: Guid(eb3831b3b436eff48bd8a0c6ccc56d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Joystick_inner.png using Guid(eb3831b3b436eff48bd8a0c6ccc56d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6322e5ee26677a7fbbd97e47c2d6f69a') in 0.026480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Square_yellow.png
+  artifactKey: Guid(8c61faa4cd1fa4e12ba287a592098435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Square_yellow.png using Guid(8c61faa4cd1fa4e12ba287a592098435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9eb9a7564968f80ffba571882ef624') in 0.064251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Rectangle_green_shadow.png
+  artifactKey: Guid(58390e8eac2e24f7ea58f283d36a2961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Rectangle_green_shadow.png using Guid(58390e8eac2e24f7ea58f283d36a2961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5516e0774ea78fd84f4e4874ac53e0c') in 0.025809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Rectangle_green.png
+  artifactKey: Guid(4c196ed03b10a489d8ba1d6af05d32ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Rectangle_green.png using Guid(4c196ed03b10a489d8ba1d6af05d32ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f185548bc5249c11b2435a481fdfe9') in 0.021937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Title_blue.png
+  artifactKey: Guid(7128835277f78c74aaf23802c9b8739d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Title_blue.png using Guid(7128835277f78c74aaf23802c9b8739d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fe1c0672dabf1ab5bc73a352499168') in 0.017834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Round_green_2.png
+  artifactKey: Guid(3fd9b70dc8739450badbf671a508e75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Round_green_2.png using Guid(3fd9b70dc8739450badbf671a508e75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e018ee284eb0baeb99a1fea0e97dbd') in 0.066821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Pointer.png
+  artifactKey: Guid(36780a1d704674a3dbad1306efb5db35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Pointer.png using Guid(36780a1d704674a3dbad1306efb5db35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6724fff48e5eaf1b76f19a78294ba53b') in 0.063012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Square_green_outline.png
+  artifactKey: Guid(b2eef44bef39646b8ba932b0bcd89dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Square_green_outline.png using Guid(b2eef44bef39646b8ba932b0bcd89dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d7c286d082ad6ecf479755ad20a905') in 0.061978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Square_blue_shadow.png
+  artifactKey: Guid(53579b999d0e044c382334a193e3babd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Square_blue_shadow.png using Guid(53579b999d0e044c382334a193e3babd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e965025281e5793a7ba0445154c1e2f') in 0.059450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Pause.png
+  artifactKey: Guid(f1ced9228313a49488ae03ebe2d34256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Pause.png using Guid(f1ced9228313a49488ae03ebe2d34256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671975eec72cb67fa6ef503c5e052e98') in 0.029415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Coin.png
+  artifactKey: Guid(bffba9bbf7345824793d8fbffade40dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Coin.png using Guid(bffba9bbf7345824793d8fbffade40dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b60268a5d0b49507dcef9cdbe78882') in 0.029221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Infinity.png
+  artifactKey: Guid(45aa69a0c18b647eb8a44bdc679d2e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Infinity.png using Guid(45aa69a0c18b647eb8a44bdc679d2e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c54a77a55e8301187003fa0560d9680') in 0.021025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Health Bar.png
+  artifactKey: Guid(11267bb58b1514908a4b7e88782ebc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Health Bar.png using Guid(11267bb58b1514908a4b7e88782ebc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdf44eaae67d35d840eb5c5e5eb5fa2') in 0.016258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Reward_BG.png
+  artifactKey: Guid(92cb6160bc78e45fe9db1aa676232c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Reward_BG.png using Guid(92cb6160bc78e45fe9db1aa676232c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19c840874c266aa16f03455fda6978e') in 0.021796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Square_green_outline_shadow.png
+  artifactKey: Guid(e2930c5fe28144b1882a0c0c13b98c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Square_green_outline_shadow.png using Guid(e2930c5fe28144b1882a0c0c13b98c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd39ebc7466998a63221ffb0d16d518') in 0.059423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Home.png
+  artifactKey: Guid(94c66d52dd64140409b30fe9647fac86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Home.png using Guid(94c66d52dd64140409b30fe9647fac86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63ab46be619559003b3d2f48015fb2c') in 0.029960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Square_blue_outline.png
+  artifactKey: Guid(89fa863757552404cb425a0325aba5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Square_blue_outline.png using Guid(89fa863757552404cb425a0325aba5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b3afa82075d8601e933d308de04e03') in 0.059180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Square_blue.png
+  artifactKey: Guid(60100aaec27cc4398b9e3d94a648d75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Square_blue.png using Guid(60100aaec27cc4398b9e3d94a648d75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c398eaf4a7a61360cc061387007edd') in 0.057287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Square_green_shadow.png
+  artifactKey: Guid(ddabf3db4d38642828d00eab413fb08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Square_green_shadow.png using Guid(ddabf3db4d38642828d00eab413fb08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd75d3b0cac82f5ebc4a6516cb2d7d05') in 0.059572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.838389 seconds.
+  path: Assets/Royal Punch Assets/Sprites/UI/Font/TitanOne-Regular.ttf
+  artifactKey: Guid(318a3ec1816d5d745b5b7982921ddcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Sprites/UI/Font/TitanOne-Regular.ttf using Guid(318a3ec1816d5d745b5b7982921ddcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b622e92f1f2e6868832efa248b1b56e') in 0.052261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.070732 seconds.
+  path: Assets/Royal Punch Assets/Shaders/FieldOfView.shader
+  artifactKey: Guid(65c25e6bde0408547a16aaaa26dcdd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Royal Punch Assets/Shaders/FieldOfView.shader using Guid(65c25e6bde0408547a16aaaa26dcdd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a720dd8e538c34bb27e30e1f7e8787ea') in 0.008688 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001896 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.111 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1111ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (907ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (310ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (344ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1551 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.7 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2051.
+Total: 3.431900 ms (FindLiveObjects: 0.193100 ms CreateObjectMapping: 0.085800 ms MarkObjects: 2.845700 ms  DeleteObjects: 0.306300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 264.667292 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba1bb398137a00be6e06e68b72b365d') in 0.200003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c2210586957436df79bf961aeff06e') in 0.079573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb93c09ad45f6e656fb1966a95741fa') in 0.020655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1280cc7be10b532b2897fc8654f95d3') in 0.051349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecbacf0b5b681b775f225c866b98f6e') in 0.022996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd214e28bdeb8e7d744101e38a9ef9c0f') in 0.019109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.660189 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f74535dbbe80d820aad8820167369b') in 0.047290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.103812 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b4cbde9565bf190136f1148817e1ea') in 0.007102 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002842 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.148 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1149ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (963ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (309ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (354ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.9 MB.
+System memory in use after: 74.0 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2022.
+Total: 3.003600 ms (FindLiveObjects: 0.139400 ms CreateObjectMapping: 0.059300 ms MarkObjects: 2.759800 ms  DeleteObjects: 0.044200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001916 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.031 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1032ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (842ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (309ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2025.
+Total: 2.810200 ms (FindLiveObjects: 0.139100 ms CreateObjectMapping: 0.054400 ms MarkObjects: 2.568600 ms  DeleteObjects: 0.047200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
