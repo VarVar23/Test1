@@ -17731,8 +17731,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.00037559014, y: 0.9805529, z: -0.19624583, w: -0.001876656}
-  m_LocalPosition: {x: 0.016000262, y: 3.546, z: -0.019999996}
+  m_LocalRotation: {x: 0.33614743, y: 0.0004038558, z: -0.00014414288, w: 0.9418093}
+  m_LocalPosition: {x: -0.005, y: 7.8589997, z: -10.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1213494227}
@@ -20269,6 +20269,59 @@ Transform:
   m_Father: {fileID: 814044129}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1105336297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1105336298}
+  - component: {fileID: 1105336299}
+  m_Layer: 5
+  m_Name: MoneyView
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1105336298
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105336297}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1349720602}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1105336299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105336297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed08efec27bbc724884115f6d0e05506, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _priceUpgradeHp: {fileID: 131654508}
+  _priceUpgradeStrength: {fileID: 411486841}
+  _countMoney: {fileID: 457520398}
+  _countMoneyWin: {fileID: 1866192916}
+  _countMoneyFail: {fileID: 246723039}
 --- !u!1 &1105909808
 GameObject:
   m_ObjectHideFlags: 0
@@ -24501,6 +24554,7 @@ RectTransform:
   - {fileID: 783316467}
   - {fileID: 192760405}
   - {fileID: 229284953}
+  - {fileID: 1105336298}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29642,7 +29696,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630206097}
-  m_LocalRotation: {x: -0.00037559014, y: 0.9805529, z: -0.19624583, w: -0.001876656}
+  m_LocalRotation: {x: -0.00037559966, y: 0.9805529, z: -0.19624583, w: -0.0018767037}
   m_LocalPosition: {x: 0.016000262, y: 3.546, z: -0.019999996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

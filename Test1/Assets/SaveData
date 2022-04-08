@@ -1,0 +1,9 @@
+{
+    "CountMoney": 0.0,
+    "PriceUpgradeHp": 50.0,
+    "PriceUpgradeStrength": 50.0,
+    "PlayerHp": 100.0,
+    "PlayerStrength": 9.0,
+    "EnemyHp": 300.0,
+    "EnemyStrength": 8.0
+}

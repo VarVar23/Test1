@@ -8,7 +8,11 @@ public class Main : MonoBehaviour
     [SerializeField] private PlayerView _playerView;
     [SerializeField] private EnemyView _enemyView;
     [SerializeField] private VariableJoystick _joystick;
+    [SerializeField] private MoneyView _moneyView;
     private ButtonView[] _buttonViews;
+
+    [Header("Config")]
+    [SerializeField] private StartSO _startSO;
 
     #region Controllers
 
@@ -19,6 +23,9 @@ public class Main : MonoBehaviour
     private PlayerDamageController _playerDamageController;
     private EnemyTargetController _enemyTargetController;
     private EnemyDamageController _enemyDamageController;
+    private SaveToJson _saveToJson;
+    private SaveData _saveData;
+    private StartSettingsController _startSettingsController;
     private UIController _UIcontroller;
 
     #endregion
@@ -33,6 +40,11 @@ public class Main : MonoBehaviour
     private void InitializeAwake()
     {
         _buttonViews = FindObjectsOfType<ButtonView>(true);
+        _saveData = new SaveData();
+        _startSettingsController = new StartSettingsController(_startSO, _playerView, _enemyView, _moneyView);
+        _saveToJson = new SaveToJson(_startSettingsController);
+        _saveToJson.Awake();
+        _saveToJson.LoadFile();
 
         _startCameraMoveController = new StartCameraMoveController(_cameraView, _UImanagerView);
         _buttonAnimationControllers = new ButtonAnimationControllers(_buttonViews, _pauseView);
