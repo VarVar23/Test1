@@ -21,6 +21,7 @@ public class Main : MonoBehaviour
     private PlayerMoveController _playerMoveController;
     private PlayerTargetController _playerTargetController;
     private PlayerDamageController _playerDamageController;
+    private PlayerAnimatorController _playerAnimatorController;
     private EnemyTargetController _enemyTargetController;
     private EnemyDamageController _enemyDamageController;
     private SaveToJson _saveToJson;
@@ -51,6 +52,7 @@ public class Main : MonoBehaviour
         _playerMoveController = new PlayerMoveController(_playerView, _joystick);
         _playerTargetController = new PlayerTargetController(_playerView, _enemyView);
         _playerDamageController = new PlayerDamageController(_playerView, _enemyView);
+        _playerAnimatorController = new PlayerAnimatorController(_playerView, _enemyView, _joystick);
         _enemyTargetController = new EnemyTargetController(_playerView, _enemyView);
         _enemyDamageController = new EnemyDamageController(_playerView, _enemyView);
         _UIcontroller = new UIController(_UImanagerView);
@@ -60,6 +62,7 @@ public class Main : MonoBehaviour
     {
         _playerMoveController?.FixedUpdate();
         _playerTargetController?.FixedUpdate();
+        _playerAnimatorController?.FixedUpdate();
         _enemyTargetController?.FixedUpdate();
     }
 }

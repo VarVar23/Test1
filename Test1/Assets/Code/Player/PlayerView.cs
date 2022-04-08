@@ -7,9 +7,11 @@ public class PlayerView : MonoBehaviour
     [SerializeField] private int _reloadDamageTime;
     [SerializeField] private float _speed;
     [SerializeField] private Rigidbody _playerRigidbody;
+    [SerializeField] private Animator _playerAnimator;
     private float _reloadDamageTimeInt;
 
     public int ReloadDamageTime => _reloadDamageTime;
     public float Speed => _speed;
     public Rigidbody PlayerRigidbody => _playerRigidbody;
+    public Animator PlayerAnimator => _playerAnimator;
 }
