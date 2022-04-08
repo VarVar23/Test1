@@ -16,7 +16,9 @@ public class Main : MonoBehaviour
     private StartCameraMoveController _startCameraMoveController;
     private PlayerMoveController _playerMoveController;
     private PlayerTargetController _playerTargetController;
+    private PlayerDamageController _playerDamageController;
     private EnemyTargetController _enemyTargetController;
+    private EnemyDamageController _enemyDamageController;
     private UIController _UIcontroller;
 
     #endregion
@@ -36,7 +38,9 @@ public class Main : MonoBehaviour
         _buttonAnimationControllers = new ButtonAnimationControllers(_buttonViews, _pauseView);
         _playerMoveController = new PlayerMoveController(_playerView, _joystick);
         _playerTargetController = new PlayerTargetController(_playerView, _enemyView);
+        _playerDamageController = new PlayerDamageController(_playerView, _enemyView);
         _enemyTargetController = new EnemyTargetController(_playerView, _enemyView);
+        _enemyDamageController = new EnemyDamageController(_playerView, _enemyView);
         _UIcontroller = new UIController(_UImanagerView);
     }
 
