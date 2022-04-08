@@ -23,6 +23,7 @@ public class ButtonAnimationControllers
 
         _pauseView.ButtonPause.onClick.AddListener(() => ButtonPause(true));
         _pauseView.ButtonResume.onClick.AddListener(() => ButtonPause(false));
+        _pauseView.ButtonMenu.onClick.AddListener(() => ButtonPause(false));
     }
 
     private void ButtonUp(ButtonView button)
