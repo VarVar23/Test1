@@ -29,6 +29,7 @@ public class UIController
 
     private void GoMenu()
     {
+        StartCameraMoveController.Instance.EndMove();
         _buttonManagerView.StartGame.gameObject.SetActive(true);
         _buttonManagerView.UIFail.SetActive(false);
         _buttonManagerView.UIPause.SetActive(false);
