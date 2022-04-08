@@ -5,12 +5,15 @@ public class Main : MonoBehaviour
     [SerializeField] private PauseView _pauseView;
     [SerializeField] private UIManagerView _UImanagerView;
     [SerializeField] private CameraView _cameraView;
+    [SerializeField] private PlayerView _playerView;
+    [SerializeField] private VariableJoystick _joystick;
     private ButtonView[] _buttonViews;
 
     #region Controllers
 
     private ButtonAnimationControllers _buttonAnimationControllers;
     private StartCameraMoveController _startCameraMoveController;
+    private PlayerMoveController _playerMoveController;
     private UIController _UIcontroller;
 
     #endregion
@@ -28,6 +31,12 @@ public class Main : MonoBehaviour
 
         _startCameraMoveController = new StartCameraMoveController(_cameraView, _UImanagerView);
         _buttonAnimationControllers = new ButtonAnimationControllers(_buttonViews, _pauseView);
+        _playerMoveController = new PlayerMoveController(_playerView, _joystick);
         _UIcontroller = new UIController(_UImanagerView);
+    }
+
+    private void FixedUpdate()
+    {
+        _playerMoveController?.FixedUpdate();
     }
 }
