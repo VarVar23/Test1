@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class Main : MonoBehaviour
 {
+    [SerializeField] private PauseView _pauseView;
+    private ButtonView[] _buttonViews;
+
     #region Controllers
 
     private ButtonAnimationControllers _buttonAnimationControllers;
@@ -15,6 +18,8 @@ public class Main : MonoBehaviour
 
     private void InitializeAwake()
     {
-        _buttonAnimationControllers = new ButtonAnimationControllers(FindObjectsOfType<ButtonView>(true));
+        _buttonViews = FindObjectsOfType<ButtonView>(true);
+
+        _buttonAnimationControllers = new ButtonAnimationControllers(_buttonViews, _pauseView);
     }
 }
