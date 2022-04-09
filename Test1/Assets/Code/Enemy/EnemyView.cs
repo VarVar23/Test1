@@ -1,12 +1,19 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyView : MonoBehaviour
 {
-    public float Strength = 5;
-    public float Hp = 1000;
     public Action PlayerOnTriggerEnterTrigger;
     public Action PlayerOnTriggerExitTrigger;
+
+    public float Strength = 5;
+    public float Hp;
+
+    [SerializeField] private Image _hpBar;
+    [SerializeField] private Text _hpText;
+    public Image HpBar => _hpBar;
+    public Text HPText => _hpText;
 
 
     private void OnTriggerEnter(Collider other)

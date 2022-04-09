@@ -37,6 +37,8 @@ public class EnemyDamageController
     private void Damage()
     {
         _playerView.Hp -= _enemyView.Strength;
+        _playerView.HpBar.fillAmount = _playerView.Hp/100;
+        _playerView.HPText.text = _playerView.Hp.ToString();
         Debug.Log(_playerView.Hp);
     }
 }

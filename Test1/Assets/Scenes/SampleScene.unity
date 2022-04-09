@@ -808,7 +808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.07453719, g: 0.2772783, b: 0.6320754, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -11549,11 +11549,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 24b03a20af0ab41448a1cebeb9473e0f, type: 3}
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -13276,11 +13276,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 24b03a20af0ab41448a1cebeb9473e0f, type: 3}
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -13544,7 +13544,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -16527,7 +16527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.07453719, g: 0.2772783, b: 0.6320754, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -17391,11 +17391,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Strength: 4
-  Hp: 4
-  _reloadDamageTime: 700
-  _speed: 210
+  Hp: 100
+  _hpBar: {fileID: 692294256}
+  _hpText: {fileID: 1209906261}
   _playerRigidbody: {fileID: 904761391}
   _playerAnimator: {fileID: 904761387}
+  _reloadDamageTime: 700
+  _speed: 210
 --- !u!54 &904761391
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -41297,7 +41299,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Strength: 4
-  Hp: 100
+  Hp: 300
+  _hpBar: {fileID: 611216728}
+  _hpText: {fileID: 1528114035}
 --- !u!136 &8364949596093867537
 CapsuleCollider:
   m_ObjectHideFlags: 0
