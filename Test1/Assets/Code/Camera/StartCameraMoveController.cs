@@ -2,13 +2,15 @@ using UnityEngine;
 
 public class StartCameraMoveController
 {
+    private PlayerView _playerView;
     private CameraView _cameraView;
     private UIManagerView _UIManagerView;
     public static StartCameraMoveController Instance;
 
-    public StartCameraMoveController(CameraView cameraView, UIManagerView UIManagerView)
+    public StartCameraMoveController(CameraView cameraView, UIManagerView UIManagerView, PlayerView playerView)
     {
         Instance = this;
+        _playerView = playerView;
         _UIManagerView = UIManagerView;
         _cameraView = cameraView;
 
@@ -20,7 +22,12 @@ public class StartCameraMoveController
         _UIManagerView.StartGame.onClick.AddListener(StartMove);
     }
 
-    private void StartMove() => _cameraView.Timeline.gameObject.SetActive(true);
+    private void StartMove()
+    {
+        _cameraView.Timeline.gameObject.SetActive(true);
+        _cameraView.GameVirtualCamera.LookAt = _playerView.transform;
+    }
+
 
     public void EndMove()
     {

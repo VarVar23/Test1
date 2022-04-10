@@ -48,9 +48,10 @@ public class Main : MonoBehaviour
     private void Start()
     {
         StartInitialize();
-        SaveData.Instance.Level = 2;
+
         _dataController.RefreshData();
         _UIdataController.VisualData();
+        _restartScene.OffPlayerRagdoll();
     }
 
     private void InitializeAwake()
@@ -63,7 +64,7 @@ public class Main : MonoBehaviour
         _saveToJson.LoadFile();
 
         _dataController = new DataController(_playerView, _enemyView, _startSO);
-        _startCameraMoveController = new StartCameraMoveController(_cameraView, _UImanagerView);
+        _startCameraMoveController = new StartCameraMoveController(_cameraView, _UImanagerView, _playerView);
         _buttonAnimationControllers = new ButtonAnimationControllers(_buttonViews, _pauseView);
         _playerMoveController = new PlayerMoveController(_playerView, _joystick);
         _playerTargetController = new PlayerTargetController(_playerView, _enemyView);
@@ -79,8 +80,8 @@ public class Main : MonoBehaviour
     private void StartInitialize()
     {
         _buyUpgradeController = new BuyUpgradeController(_UIdataController, _buttonViews, _dataController, _startSO);
-        _restartScene = new RestartSceneController(_UIdataController, _dataController, _UIcontroller, _playerView);
-        _playerDeathController = new PlayerDeathController(_playerView, _restartScene);
+        _restartScene = new RestartSceneController(_UIdataController, _dataController, _UIcontroller, _playerView, _UImanagerView);
+        _playerDeathController = new PlayerDeathController(_playerView, _cameraView, _UImanagerView);
         _enemyDeathController = new EnemyDeathController(_enemyView);
     }
 
