@@ -23,8 +23,10 @@ public class Main : MonoBehaviour
     private PlayerTargetController _playerTargetController;
     private PlayerDamageController _playerDamageController;
     private PlayerAnimatorController _playerAnimatorController;
+    private PlayerDeathController _playerDeathController;
     private EnemyTargetController _enemyTargetController;
     private EnemyDamageController _enemyDamageController;
+    private EnemyDeathController _enemyDeathController;
     private SaveToJson _saveToJson;
     private SaveData _saveData;
     private StartSettingsController _startSettingsController;
@@ -32,6 +34,7 @@ public class Main : MonoBehaviour
     private UIController _UIcontroller;
     private UIDataController _UIdataController;
     private BuyUpgradeController _buyUpgradeController;
+    private RestartSceneController _restartScene;
 
     #endregion
 
@@ -45,7 +48,7 @@ public class Main : MonoBehaviour
     private void Start()
     {
         StartInitialize();
-
+        SaveData.Instance.Level = 2;
         _dataController.RefreshData();
         _UIdataController.VisualData();
     }
@@ -76,6 +79,9 @@ public class Main : MonoBehaviour
     private void StartInitialize()
     {
         _buyUpgradeController = new BuyUpgradeController(_UIdataController, _buttonViews, _dataController, _startSO);
+        _restartScene = new RestartSceneController(_UIdataController, _dataController, _UIcontroller, _playerView);
+        _playerDeathController = new PlayerDeathController(_playerView, _restartScene);
+        _enemyDeathController = new EnemyDeathController(_enemyView);
     }
 
     private void FixedUpdate()

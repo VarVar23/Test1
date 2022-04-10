@@ -19,11 +19,11 @@ public class SaveToJson
     {
         _fileName = "SaveData";
 
-#if UNITY_ANDROID && !UNITY_EDITOR
-    _savePath = Path.Combine(Application.persistentDataPath, _fileName);
-#else
-    _savePath = Path.Combine(Application.dataPath, _fileName);
-#endif
+        #if UNITY_ANDROID && !UNITY_EDITOR
+            _savePath = Path.Combine(Application.persistentDataPath, _fileName);
+        #else
+            _savePath = Path.Combine(Application.dataPath, _fileName);
+        #endif
     }
 
     public void SaveToFile()

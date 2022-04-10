@@ -6,6 +6,7 @@ public class EnemyView : MonoBehaviour
 {
     public Action PlayerOnTriggerEnterTrigger;
     public Action PlayerOnTriggerExitTrigger;
+    public Action EnemyDeath;
 
     public float Strength = 5;
     public float MaxHp;

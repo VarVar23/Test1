@@ -1,5 +1,3 @@
-using UnityEngine;
-
 public class DataController 
 {
     private PlayerView _playerView;

@@ -38,7 +38,15 @@ public class PlayerDamageController
     {
         _enemyView.Hp -= _playerView.Strength;
         _enemyView.HpBar.fillAmount = _enemyView.Hp / _enemyView.MaxHp;
-        _enemyView.HPText.text = _enemyView.Hp.ToString();
-        Debug.Log(_enemyView.Hp);
+        _enemyView.HPText.text = _enemyView.Hp.ToString("N0");
+
+        if (_enemyView.Hp < 0)
+        {
+            _enemyView.Hp = 0;
+            _enemyView.HpBar.fillAmount = 0;
+            _enemyView.HPText.text = "0";
+            _enemyView.EnemyDeath?.Invoke();
+            _damage = false;
+        }
     }
 }

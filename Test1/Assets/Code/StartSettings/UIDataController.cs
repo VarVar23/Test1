@@ -15,6 +15,8 @@ public class UIDataController
     {
         _playerView.HPText.text = _playerView.Hp.ToString();
         _enemyView.HPText.text = _enemyView.Hp.ToString();
+        _playerView.HpBar.fillAmount = 1;
+        _enemyView.HpBar.fillAmount = 1;
 
         _UImenuView.CountMoney.text = SaveData.Instance.CountMoney.ToString();
         _UImenuView.Level.text = "LEVEL " + SaveData.Instance.Level.ToString();

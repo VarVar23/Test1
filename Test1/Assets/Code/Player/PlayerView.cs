@@ -1,8 +1,10 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayerView : MonoBehaviour
 {
+    public Action PlayerDeath;
     public float Strength = 5;
     public float MaxHp;
     public float Hp;
@@ -14,6 +16,7 @@ public class PlayerView : MonoBehaviour
     [SerializeField] private int _reloadDamageTime;
     [SerializeField] private float _speed;
 
+    private Vector3 _startPosition;
     private float _reloadDamageTimeInt;
     private float _hp;
 
@@ -23,4 +26,7 @@ public class PlayerView : MonoBehaviour
     public float Speed => _speed;
     public Rigidbody PlayerRigidbody => _playerRigidbody;
     public Animator PlayerAnimator => _playerAnimator;
+    public Vector3 StartPosition => _startPosition;
+
+    private void Awake() => _startPosition = transform.position;
 }
