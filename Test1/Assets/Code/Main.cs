@@ -4,6 +4,7 @@ public class Main : MonoBehaviour
 {
     [SerializeField] private PauseView _pauseView;
     [SerializeField] private UIManagerView _UImanagerView;
+    [SerializeField] private UIMenuView _UImenuView;
     [SerializeField] private CameraView _cameraView;
     [SerializeField] private PlayerView _playerView;
     [SerializeField] private EnemyView _enemyView;
@@ -27,7 +28,10 @@ public class Main : MonoBehaviour
     private SaveToJson _saveToJson;
     private SaveData _saveData;
     private StartSettingsController _startSettingsController;
+    private DataController _dataController;
     private UIController _UIcontroller;
+    private UIDataController _UIdataController;
+    private BuyUpgradeController _buyUpgradeController;
 
     #endregion
 
@@ -36,6 +40,14 @@ public class Main : MonoBehaviour
         InitializeAwake();
 
         _UIcontroller.Awake();
+    }
+
+    private void Start()
+    {
+        StartInitialize();
+
+        _dataController.RefreshData();
+        _UIdataController.VisualData();
     }
 
     private void InitializeAwake()
@@ -47,6 +59,7 @@ public class Main : MonoBehaviour
         _saveToJson.Awake();
         _saveToJson.LoadFile();
 
+        _dataController = new DataController(_playerView, _enemyView, _startSO);
         _startCameraMoveController = new StartCameraMoveController(_cameraView, _UImanagerView);
         _buttonAnimationControllers = new ButtonAnimationControllers(_buttonViews, _pauseView);
         _playerMoveController = new PlayerMoveController(_playerView, _joystick);
@@ -55,7 +68,14 @@ public class Main : MonoBehaviour
         _playerAnimatorController = new PlayerAnimatorController(_playerView, _enemyView, _joystick);
         _enemyTargetController = new EnemyTargetController(_playerView, _enemyView);
         _enemyDamageController = new EnemyDamageController(_playerView, _enemyView);
+
         _UIcontroller = new UIController(_UImanagerView);
+        _UIdataController = new UIDataController(_UImenuView, _playerView, _enemyView);
+    }
+
+    private void StartInitialize()
+    {
+        _buyUpgradeController = new BuyUpgradeController(_UIdataController, _buttonViews, _dataController, _startSO);
     }
 
     private void FixedUpdate()

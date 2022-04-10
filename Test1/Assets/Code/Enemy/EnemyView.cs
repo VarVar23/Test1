@@ -8,7 +8,9 @@ public class EnemyView : MonoBehaviour
     public Action PlayerOnTriggerExitTrigger;
 
     public float Strength = 5;
+    public float MaxHp;
     public float Hp;
+
 
     [SerializeField] private Image _hpBar;
     [SerializeField] private Text _hpText;

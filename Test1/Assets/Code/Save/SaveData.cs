@@ -13,4 +13,8 @@ public class SaveData
     public float PlayerStrength;
     public float EnemyHp;
     public float EnemyStrength;
+    public int Level;
+    public int LevelUpgradeHp;
+    public int LevelUpgradeStrength;
+    public float K;
 }

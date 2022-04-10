@@ -15,6 +15,7 @@ MonoBehaviour:
   PriceUpgradeHp: 50
   PriceUpgradeStrength: 50
   PlayerHp: 100
-  PlayerStrength: 9
+  PlayerStrength: 3
   EnemyHp: 300
-  EnemyStrength: 8
+  EnemyStrength: 2
+  K: 0.08

@@ -23,7 +23,11 @@ public class StartSettingsController
         SaveData.Instance.PlayerStrength = _startSO.PlayerStrength;
         SaveData.Instance.EnemyHp = _startSO.EnemyHp;
         SaveData.Instance.EnemyStrength = _startSO.EnemyStrength;
-        SaveData.Instance.CountMoney = 0;
+        SaveData.Instance.K = _startSO.K;
+        SaveData.Instance.CountMoney = 2000;
+        SaveData.Instance.Level = 1;
+        SaveData.Instance.LevelUpgradeHp = 1;
+        SaveData.Instance.LevelUpgradeStrength = 1;
 
         _playerView.Hp = _startSO.PlayerHp;
         _playerView.Strength = _startSO.PlayerStrength;

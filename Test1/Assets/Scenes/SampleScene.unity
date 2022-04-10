@@ -6134,6 +6134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _pauseView: {fileID: 783316469}
   _UImanagerView: {fileID: 1349720603}
+  _UImenuView: {fileID: 1420195685}
   _cameraView: {fileID: 1215701828}
   _playerView: {fileID: 904761390}
   _enemyView: {fileID: 8364949596093867536}
@@ -8494,10 +8495,10 @@ RectTransform:
   m_Father: {fileID: 1870913562}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 352, y: -508}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &492720189
 GameObject:
@@ -16785,10 +16786,10 @@ RectTransform:
   m_Father: {fileID: 1870913562}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 462, y: -508}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &874623940
 GameObject:
@@ -17391,7 +17392,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Strength: 4
-  Hp: 100
+  MaxHp: 0
+  Hp: 23
   _hpBar: {fileID: 692294256}
   _hpText: {fileID: 1209906261}
   _playerRigidbody: {fileID: 904761391}
@@ -18139,7 +18141,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.3361287, y: 0.00040390235, z: -0.00014415041, w: 0.941816}
+  m_LocalRotation: {x: 0.3361287, y: 0.00040382988, z: -0.00014412454, w: 0.941816}
   m_LocalPosition: {x: -0.005, y: 7.8589997, z: -10.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -21775,7 +21777,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164107205}
-  m_LocalRotation: {x: 0.3361287, y: 0.00040390235, z: -0.00014415041, w: 0.941816}
+  m_LocalRotation: {x: 0.3361287, y: 0.00040382988, z: -0.00014412454, w: 0.941816}
   m_LocalPosition: {x: -0.005, y: 7.8589997, z: -10.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -22583,7 +22585,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 233
 --- !u!222 &1209906262
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26018,13 +26020,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1420195684}
+  - component: {fileID: 1420195685}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1420195684
 RectTransform:
   m_ObjectHideFlags: 0
@@ -26047,6 +26050,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1420195685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420195683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17cd80495426d844b9ab8a9a5cd5edef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _levelHp: {fileID: 852092758}
+  _priceHp: {fileID: 131654508}
+  _levelStrength: {fileID: 869579634}
+  _priceStrength: {fileID: 411486841}
+  _countMoney: {fileID: 457520398}
+  _level: {fileID: 169510109}
 --- !u!1 &1427480639
 GameObject:
   m_ObjectHideFlags: 0
@@ -26804,7 +26825,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1457828377}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1457828380}
+        m_TargetAssemblyTypeName: ButtonView, Assembly-CSharp
+        m_MethodName: ButtonBuyUpgradeStrengthMethod
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1457828377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35317,7 +35350,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1937041923}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1937041925}
+        m_TargetAssemblyTypeName: ButtonView, Assembly-CSharp
+        m_MethodName: ButtonBuyUpgradeHpMethod
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1937041923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41299,7 +41344,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Strength: 4
-  Hp: 300
+  MaxHp: 0
+  Hp: 233
   _hpBar: {fileID: 611216728}
   _hpText: {fileID: 1528114035}
 --- !u!136 &8364949596093867537

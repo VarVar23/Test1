@@ -17,7 +17,11 @@ public class ButtonView : MonoBehaviour
 
     public Action<ButtonView> ButtonUp;
     public Action<ButtonView> ButtonDown;
+    public Action ButtonBuyUpgradeHp;
+    public Action ButtonBuyUpgradeStrength;
 
     public void ButtonUpMethod() => ButtonUp?.Invoke(this);
     public void ButtonDownMethod() => ButtonDown?.Invoke(this);
+    public void ButtonBuyUpgradeHpMethod() => ButtonBuyUpgradeHp?.Invoke();
+    public void ButtonBuyUpgradeStrengthMethod() => ButtonBuyUpgradeStrength?.Invoke();
 }

@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class PlayerView : MonoBehaviour
 {
     public float Strength = 5;
+    public float MaxHp;
     public float Hp;
 
     [SerializeField] private Image _hpBar;

@@ -10,5 +10,5 @@ public class StartSO : ScriptableObject
     public float PlayerStrength;
     public float EnemyHp;
     public float EnemyStrength;
-    public float K; // коэффициент
+    public float K; // коэффициент для всех уровней (уровни игры и Upgrade)
 }
