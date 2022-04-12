@@ -7,11 +7,11 @@ public class PlayerDeathController
     private UIManagerView _UIManagerView;
     private PlayerView _playerView;
     private CameraView _cameraView;
-    private SO _so;
+    private BonesSO _boneSO;
 
-    public PlayerDeathController(PlayerView playerView, CameraView cameraView, UIManagerView UIManagerView, SO so)
+    public PlayerDeathController(PlayerView playerView, CameraView cameraView, UIManagerView UIManagerView, BonesSO boneSo)
     {
-        _so = so;
+        _boneSO = boneSo;
         _UIManagerView = UIManagerView;
         _playerView = playerView;
         _cameraView = cameraView;
@@ -25,7 +25,8 @@ public class PlayerDeathController
     {
         OnPlayerRagdoll();
         _cameraView.GameVirtualCamera.LookAt = _playerView.Spine;
-        WaitActivePanel(1000);
+        WaitStandUp(2000);
+        WaitActivePanel(3000);
     }
 
     private void OnPlayerRagdoll()
@@ -50,14 +51,18 @@ public class PlayerDeathController
     private async void WaitActivePanel(int time)
     {
         await Task.Delay(time);
+        _UIManagerView.UIFail.SetActive(true);
+    }
+
+    private async void WaitStandUp(int time)
+    {
+        await Task.Delay(time);
         BoneVelocityReset();
         _playerView.RagdollParent.transform.parent = null;
         _playerView.transform.position = _playerView.RagdollParent.transform.position;
         _playerView.RagdollParent.transform.parent = _playerView.transform;
 
         _playerView.StartCoroutine(ResetPosition());
-        //Восстание из регдолла
-        //_UIManagerView.UIFail.SetActive(true);
     }
 
     private void BoneVelocityReset()
@@ -70,10 +75,6 @@ public class PlayerDeathController
 
     private IEnumerator ResetPosition()
     {
-        for(int i = 0; i < 60; i++)
-        {
-            yield return null; 
-        }
 
         foreach(var r in _playerView.RagdollRigidbody)
         {
@@ -88,57 +89,19 @@ public class PlayerDeathController
         Vector3[] startPos = new Vector3[11];
         Quaternion[] startRot = new Quaternion[11];
 
-        //for (int i = 0; i < _so.BonePositions.Length; i++)
-        //{
-        //    startPos[i] = _so.Bones[i].localPosition;
-        //    startRot[i] = _so.Bones[i].localRotation;
-        //}
-
-
-        //for(float j = 0; j < 100f; j++)
-        //{
-        var time = 0f;
 
         while(true)
         {
-            for (int i = 0; i < _so.Pos2.Length; i++)
+            for (int i = 0; i < _boneSO.BonesPosition.Length; i++)
             {
 
-                _so.Bones[i].transform.localPosition = Vector3.Lerp(_so.Bones[i].transform.localPosition, _so.Pos2[i], 0.001f);
-                _so.Bones[i].transform.localRotation = Quaternion.Lerp(_so.Bones[i].transform.localRotation, _so.Rot2[i], 0.001f);
+                _boneSO.Bones[i].transform.localPosition = Vector3.Lerp(_boneSO.Bones[i].transform.localPosition, _boneSO.BonesPosition[i], 0.001f);
+                _boneSO.Bones[i].transform.localRotation = Quaternion.Lerp(_boneSO.Bones[i].transform.localRotation, _boneSO.BonesRotation[i], 0.001f);
 
-                if (CheckEndPosition(_so.Bones, _so.Pos2))
-                {
-                    //PlayAnimation
-                    yield break;
-                }
-
+                if (CheckEndPosition(_boneSO.Bones, _boneSO.BonesPosition)) yield break;
             }
             yield return null; 
         }
-
-
-
-        //}
-
-
-        //Debug.Log("ss");
-        //for(float j = 0; j < 60f; j += Time.deltaTime)
-        //{
-        //    for (int i = 0; i < _playerView.RagdollRigidbody.Length; i++)
-        //    {
-        //        _playerView.RagdollRigidbody[i].transform.localPosition = Vector3.Lerp
-        //            (_playerView.RagdollRigidbody[i].transform.localPosition, _so.BonePositions[i], j / 60f);
-        //        yield return null;
-        //    }
-
-        //    for (int i = 0; i < _playerView.RagdollRigidbody.Length; i++)
-        //    {
-        //        _playerView.RagdollRigidbody[i].transform.localRotation = Quaternion.Lerp
-        //            (_playerView.RagdollRigidbody[i].transform.localRotation, _so.BoneRotations[i], j / 60f);
-        //        yield return null;
-        //    }
-        //}
     }
 
     private bool CheckEndPosition(Rigidbody[] posCurrent, Vector3[] posEnd)

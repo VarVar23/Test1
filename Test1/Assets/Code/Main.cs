@@ -14,7 +14,7 @@ public class Main : MonoBehaviour
 
     [Header("Config")]
     [SerializeField] private StartSO _startSO;
-    [SerializeField] private SO _so;
+    [SerializeField] private BonesSO _so;
 
     #region Controllers
 
@@ -41,13 +41,8 @@ public class Main : MonoBehaviour
 
     private void Awake()
     {
-        Vector3
         InitializeAwake();
-
         _UIcontroller.Awake();
-
-       // transform.localPosition;
-       // transform.localEulerAngles;
     }
 
     private void Start()
