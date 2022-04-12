@@ -1,13 +1,13 @@
 {
-    "CountMoney": 1950.0,
-    "PriceUpgradeHp": 54.0,
+    "CountMoney": 2000.0,
+    "PriceUpgradeHp": 50.0,
     "PriceUpgradeStrength": 50.0,
     "PlayerHp": 100.0,
     "PlayerStrength": 3.0,
     "EnemyHp": 300.0,
     "EnemyStrength": 2.0,
     "Level": 1,
-    "LevelUpgradeHp": 2,
+    "LevelUpgradeHp": 1,
     "LevelUpgradeStrength": 1,
     "K": 0.07999999821186066
 }

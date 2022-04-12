@@ -19,7 +19,7 @@ public class PlayerView : MonoBehaviour
     [SerializeField] private Rigidbody[] _ragdollRigidbody;
     [SerializeField] private Collider[] _ragdollColliders;
     [SerializeField] private Transform _spine;
-
+    [SerializeField] private GameObject _ragdollParent;
     private Vector3 _startPosition;
     private float _reloadDamageTimeInt;
     private float _hp;
@@ -35,6 +35,7 @@ public class PlayerView : MonoBehaviour
     public Rigidbody[] RagdollRigidbody => _ragdollRigidbody;
     public Collider[] RagdollColliders => _ragdollColliders;
     public Transform Spine => _spine; 
+    public GameObject RagdollParent => _ragdollParent;
 
     private void Awake() => _startPosition = transform.position;
 }

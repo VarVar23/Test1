@@ -6298,6 +6298,7 @@ MonoBehaviour:
   _joystick: {fileID: 9092417402625540871}
   _moneyView: {fileID: 1105336299}
   _startSO: {fileID: 11400000, guid: 563744c874552b641993557f8b56abdd, type: 2}
+  _so: {fileID: 11400000, guid: 3d7f94ad49f6b8a40a597f017e9582a5, type: 2}
 --- !u!1 &352587763
 GameObject:
   m_ObjectHideFlags: 0
@@ -17741,6 +17742,7 @@ MonoBehaviour:
   - {fileID: 1676147055}
   - {fileID: 2124932962}
   _spine: {fileID: 205560669}
+  _ragdollParent: {fileID: 945016334}
 --- !u!54 &904761391
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31149,6 +31151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1637051735}
+  - component: {fileID: 1637051736}
   m_Layer: 6
   m_Name: Armature
   m_TagString: Untagged
@@ -31171,6 +31174,43 @@ Transform:
   m_Father: {fileID: 904761388}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1637051736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637051734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cc1f6c7fde480a4282de60202e15cd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BonePositions:
+  - {x: -0.013876708, y: 0.2867078, z: -0.005145284}
+  - {x: -0.10205403, y: -0.03823501, z: 0.001551003}
+  - {x: 0.0000000023841857, y: 0.14900361, z: 0.000000014305114}
+  - {x: 0.102054015, y: -0.038235012, z: 0.000054988635}
+  - {x: -0.000000009536743, y: 0.14902115, z: 0.0000000023469329}
+  - {x: -0, y: 0.08023396, z: 0.000000001490116}
+  - {x: -0.0000000333786, y: 0.09264199, z: 0.000000011920928}
+  - {x: 0.000000019073486, y: 0.16596437, z: 0.000000042915342}
+  - {x: 0.000000001490116, y: 0.045971774, z: -0.023773996}
+  - {x: -0, y: 0.092647016, z: 0.000000032037494}
+  - {x: 0.000000038146972, y: 0.16578239, z: -0.000000010728836}
+  BoneRotations:
+  - {x: -0.0027814063, y: 0.29953688, z: -0.010730124, w: 0.9540203}
+  - {x: -0.10633701, y: 0.35035533, z: 0.9064535, w: 0.21044154}
+  - {x: -0.61773086, y: -0.12233337, z: 0.026545143, w: 0.7763624}
+  - {x: 0.09998394, y: -0.017637156, z: 0.9709139, w: -0.21683726}
+  - {x: -0.54258937, y: 0.027799768, z: -0.021368401, w: 0.83926594}
+  - {x: 0.018911876, y: -0.006184819, z: 0.0012142578, w: 0.9998013}
+  - {x: 0.2224098, y: 0.20234174, z: -0.31699973, w: 0.89950144}
+  - {x: 0.07957388, y: -0.095513694, z: 0.8975106, w: -0.42310742}
+  - {x: 0.009024592, y: -0.11994079, z: 0.090624504, w: 0.988595}
+  - {x: 0.27507767, y: -0.039796084, z: 0.55456865, w: 0.78434825}
+  - {x: 0.021531347, y: 0.0063967984, z: 0.77468693, w: 0.63194597}
+  So: {fileID: 11400000, guid: 3d7f94ad49f6b8a40a597f017e9582a5, type: 2}
 --- !u!1 &1640356473
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,6 +14,7 @@ public class Main : MonoBehaviour
 
     [Header("Config")]
     [SerializeField] private StartSO _startSO;
+    [SerializeField] private SO _so;
 
     #region Controllers
 
@@ -40,9 +41,13 @@ public class Main : MonoBehaviour
 
     private void Awake()
     {
+        Vector3
         InitializeAwake();
 
         _UIcontroller.Awake();
+
+       // transform.localPosition;
+       // transform.localEulerAngles;
     }
 
     private void Start()
@@ -81,7 +86,7 @@ public class Main : MonoBehaviour
     {
         _buyUpgradeController = new BuyUpgradeController(_UIdataController, _buttonViews, _dataController, _startSO);
         _restartScene = new RestartSceneController(_UIdataController, _dataController, _UIcontroller, _playerView, _UImanagerView);
-        _playerDeathController = new PlayerDeathController(_playerView, _cameraView, _UImanagerView);
+        _playerDeathController = new PlayerDeathController(_playerView, _cameraView, _UImanagerView, _so);
         _enemyDeathController = new EnemyDeathController(_enemyView);
     }
 
